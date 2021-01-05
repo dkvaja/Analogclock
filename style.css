@@ -1,0 +1,42 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+}
+
+#clock-box {
+  position: relative;
+  margin: 4rem auto;
+  height: 40vw;
+  width: 40vw;
+  background: url("clock.png") no-repeat;
+  background-size: 100%;
+}
+
+#hr,
+#min,
+#sec {
+  position: absolute;
+  transform-origin: bottom;
+  border-radius: 10px;
+}
+#hr {
+  width: 1%;
+  height: 25%;
+  top: 25%;
+  background-color: blue;
+  left: 49.4%;
+}
+#min {
+  width: 1%;
+  height: 30%;
+  top: 20%;
+  background-color: rgb(16, 88, 16);
+  left: 49.6%;
+}
+#sec {
+  width: 1%;
+  height: 36%;
+  top: 14.2%;
+  background-color: red;
+  left: 49.5%;
+}
